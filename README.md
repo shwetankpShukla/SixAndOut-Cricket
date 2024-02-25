@@ -59,3 +59,9 @@ mvn spring-boot:run
 ## Port 
 - Config Server : 8080
 
+![image](https://github.com/shwetankpShukla/Microservices-using-SpringBoot-3.0/assets/41003710/b64aceca-b086-4aa9-8c3e-29514fc37514)
+
+![image](https://github.com/shwetankpShukla/Microservices-using-SpringBoot-3.0/assets/41003710/eff89984-08ac-4512-bf30-f4a37768c4ca)
+
+![image](https://github.com/shwetankpShukla/Microservices-using-SpringBoot-3.0/assets/41003710/3c310a14-960a-4dbb-a738-bc4e10c318c7)
+
