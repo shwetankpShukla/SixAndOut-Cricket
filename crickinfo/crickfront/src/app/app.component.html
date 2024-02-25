@@ -1,0 +1,44 @@
+ <!-- Header -->
+ <header class="bg-blue-500 text-white p-4">
+    <div class="container mx-auto flex items-center justify-between">
+        <div class="flex items-center justify-center w-24 h-24 rounded-full bg-green-500 text-white font-bold text-4xl">Six&Out</div>
+
+        <nav class="space-x-4">
+            <a [routerLink]="'/home'" class="hover:text-gray-300">Home</a>
+            <a [routerLink]="'/live'" href="#" class="hover:text-gray-300">Live</a>
+            <a [routerLink]="'/history'" href="#" class="hover:text-gray-300">History</a>
+            <a [routerLink]="'/point-table'" href="#" class="hover:text-gray-300">Point Table</a>
+        </nav>
+    </div>
+</header>
+<div class="px-24 py-7">
+  <router-outlet></router-outlet>
+</div>
+
+
+
+
+<footer class="fixed bottom-0 w-full bg-gray-800 text-white py-4">
+    <div class="container mx-auto flex flex-wrap justify-between">
+      <!-- CrickInformer Title -->
+      <div class="mb-4 lg:mb-0">
+        <h2 class="text-2xl font-bold">Six&Out</h2>
+      </div>
+  
+      <!-- Navigation Menu -->
+      <nav class="mb-4 lg:mb-0">
+        <ul class="flex space-x-4">
+          <li><a [routerLink]="'/home'" class="hover:text-gray-300">Home</a></li>
+          <li><a [routerLink]="'/live'" class="hover:text-gray-300">Live</a></li>
+          <li><a [routerLink]="'/history'" class="hover:text-gray-300">History</a></li>
+          <li><a [routerLink]="'/point-table'" class="hover:text-gray-300">Point Table</a></li>
+        </ul>
+      </nav>
+  
+      <!-- Copywrite -->
+      <div>
+        <p>&copy;2024 six&out.com</p>
+      </div>
+    </div>
+  </footer>
+  
